@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_cexam.xml" value="0.20416666666666666" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_cpp_exam.xml" value="0.20416666666666666" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_cpp_result.xml" value="0.20416666666666666" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_cresult.xml" value="0.20416666666666666" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_exam_list.xml" value="0.33" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_forgot_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_html_exam.xml" value="0.20416666666666666" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_html_result.xml" value="0.20416666666666666" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_java_exam.xml" value="0.22" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_java_result.xml" value="0.22" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_java_result2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_js_exam.xml" value="0.20416666666666666" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_js_result.xml" value="0.20416666666666666" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_php_exam.xml" value="0.20416666666666666" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_php_result.xml" value="0.20416666666666666" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_result.xml" value="0.20416666666666666" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/demofile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Exam_demo/app/src/main/res/layout/fragment_j_a_v_a__t_e_s_t.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

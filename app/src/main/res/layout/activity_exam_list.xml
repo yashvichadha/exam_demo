@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ExamList">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/javaview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"
+        android:onClick="onclicktojavatest"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+
+        <ImageView
+            android:id="@+id/javalogo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/JAVAEXAM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text="JAVA TEST"
+            android:textColor="@color/teal_200"
+            android:textSize="30sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/javaview"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:onClick="onclicktoCExam"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/Dark_Gray"
+
+
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+
+        <ImageView
+            android:id="@+id/C_EXAM"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/c_logo" />
+
+        <TextView
+            android:id="@+id/C_TEST"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text="C TEST"
+            android:textColor="@color/teal_200"
+            android:textSize="30sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cplusview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cview"
+        android:layout_marginStart="10dp"
+        android:onClick="onclicktoCppExam"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"
+
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+
+        <ImageView
+            android:id="@+id/CPlus_EXAM"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/cplus_logo" />
+
+        <TextView
+            android:id="@+id/Cplus_TEST"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text="C++ TEST"
+            android:textColor="@color/teal_200"
+            android:textSize="30sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/jsview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cplusview"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/Dark_Gray"
+        android:onClick="onclicktoJSExam"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+
+        <ImageView
+            android:id="@+id/JSEXAM"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/js_logo" />
+
+        <TextView
+            android:id="@+id/JSTEST"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text="JS TEST"
+            android:textColor="@color/teal_200"
+            android:textSize="30sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/htmlview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jsview"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"
+        android:onClick="onclicktohtmlExam"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+
+        <ImageView
+            android:id="@+id/html_EXAM"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/html_logo" />
+
+        <TextView
+            android:id="@+id/html_TEST"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text="HTML TEST"
+            android:textColor="@color/teal_200"
+            android:textSize="30sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/phpview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/htmlview"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/Dark_Gray"
+        android:onClick="onclicktophpExam"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp">
+
+
+        <ImageView
+            android:id="@+id/phpEXAM"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            app:srcCompat="@drawable/phplogo" />
+
+        <TextView
+            android:id="@+id/phpTEST"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text="PHP TEST"
+            android:textColor="@color/teal_200"
+            android:textSize="30sp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
